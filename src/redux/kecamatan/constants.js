@@ -1,0 +1,8 @@
+export const START_FETCHING_KECAMATAN =
+  "redux/kecamatan/START_FETCHING_KECAMATAN";
+export const SUCCESS_FETCHING_KECAMATAN =
+  "redux/kecamatan/SUCCESS_FETCHING_KECAMATAN";
+export const ERROR_FETCHING_KECAMATAN =
+  "redux/kecamatan/ERROR_FETCHING_KECAMATAN";
+export const CLEAR_FETCHING_KECAMATAN =
+  "redux/kecamatan/CLEAR_FETCHING_KECAMATAN";

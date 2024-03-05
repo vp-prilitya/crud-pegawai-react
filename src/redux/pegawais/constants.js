@@ -1,0 +1,4 @@
+export const START_FETCHING_PEGAWAI = "redux/pegawai/START_FETCHING_PEGAWAI";
+export const SUCCESS_FETCHING_PEGAWAI =
+  "redux/pegawai/SUCCESS_FETCHING_PEGAWAI";
+export const ERROR_FETCHING_PEGAWAI = "redux/pegawai/ERROR_FETCHING_PEGAWAI";

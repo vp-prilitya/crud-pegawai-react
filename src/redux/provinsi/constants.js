@@ -1,0 +1,4 @@
+export const START_FETCHING_PROVINSI = "redux/provinsi/START_FETCHING_PROVINSI";
+export const SUCCESS_FETCHING_PROVINSI =
+  "redux/provinsi/SUCCESS_FETCHING_PROVINSI";
+export const ERROR_FETCHING_PROVINSI = "redux/provinsi/ERROR_FETCHING_PROVINSI";
