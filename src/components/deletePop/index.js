@@ -13,6 +13,7 @@ import { closeDialog } from "../../redux/dialog/actions";
 import { deleteData } from "../../utils/fetch";
 import { useState } from "react";
 import { fetchPegawai } from "../../redux/pegawais/actions";
+import { setNotif } from "../../redux/notif/actions";
 
 function DeletePop() {
   const dispatch = useDispatch();
@@ -31,6 +32,7 @@ function DeletePop() {
     try {
       await deleteData(dialog.path);
       handleClose();
+      dispatch(setNotif(true, "Data berhasil dihapus"));
       dispatch(fetchPegawai());
     } catch (err) {
       handleClose();
